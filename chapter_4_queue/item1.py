@@ -34,7 +34,7 @@ for i in input :
         print("Add " + str(order[1]) + " index is " + str(q.size()-1))
     elif order[0] == 'D' :
         if not q.isEmpty() :
-            print("Pop" , str( q.deQueue()) , "size in queue is " , str(q.size()))
+            print("Pop" , str( q.deQueue()) , "size in queue is" , str(q.size()))
         else :
             print("-1")
 
