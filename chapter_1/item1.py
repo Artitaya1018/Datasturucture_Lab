@@ -3,8 +3,8 @@
 เก็บในตัวแปร h, m และ s ซึ่งแทนจำนวน ชั่วโมง นาที และ วินาที
 แล้วแสดงผลเป็น วินาที
 แสดงผลตามตัวอย่าง
-
 '''
+
 print("*** Converting hh.mm.ss to seconds ***")
 h, m, s = input("Enter hh mm ss : ").split()
 
