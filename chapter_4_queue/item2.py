@@ -37,7 +37,7 @@ for i in inp : q.enQueue(i)
 
 while not q.isEmpty() :
     mins += 1
-    if (mins-1) % 3 == 0 and (mins-1) != 0 : q1.deQueue()       # ออกนาทีที่4
+    if (mins-1) % 3 == 0 and (mins-1) != 0 : q1.deQueue()       # ออกนาทีที่4 (เช็คออกก่อนถึงอนุญาติเข้ามา)
     if countQ2 == 2 :                                           # นาทีที่ 0 1 2 แล้วกลับมารีเซตใหม่
         countQ2 = 0
         q2.deQueue()
